@@ -103,3 +103,6 @@ dist
 lib
 temp
 *.bak
+.vs
+.vscode
+.idea
