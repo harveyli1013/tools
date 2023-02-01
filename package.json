@@ -27,6 +27,7 @@
     "lint": "eslint --ext .js,.ts --format=pretty ./src",
     "lint:fix": "eslint --fix --ext .js,.ts --format=pretty ./src",
     "changelog": "gulp changelog",
+    "prepublishOnly": "yarn lint & yarn test & yarn changelog & yarn build",
     "version": "yarn changelog && git add CHANGELOG.md",
     "release": "yarn test && yarn build && np --no-cleanup --yolo --any-branch",
     "prepare": "husky install"
