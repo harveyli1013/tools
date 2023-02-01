@@ -1,6 +1,6 @@
 # 工具库更新日志
 
-# 1.0.0 (2023-02-01)
+# [1.0.0](https://github.com/harveyli1013/tools/compare/6e3f01ac3c95bb8ec0637afd7b4c5215a59ca132...v1.0.0) (2023-02-01)
 
 
 ### Bug Fixes
