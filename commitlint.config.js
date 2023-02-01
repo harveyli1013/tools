@@ -6,6 +6,7 @@ module.exports = {
       2,
       'always',
       [
+        'build', // 主要目的是修改项目构建系统(例如 glup，webpack，rollup 的配置等)的提交
         'bug', // 此项特别针对bug号，用于向测试反馈bug列表的bug修改情况
         'feat', // 新功能（feature）
         'fix', // 修补bug
@@ -13,9 +14,10 @@ module.exports = {
         'style', // 格式（不影响代码运行的变动）
         'refactor', // 重构（即不是新增功能，也不是修改bug的代码变动）
         'test', // 增加测试
-        'chore', // 构建过程或辅助工具的变动
         'revert', // feat(pencil): add ‘graphiteWidth’ option (撤销之前的commit)
         'merge', // 合并分支， 例如： merge（前端页面）： feature-xxxx修改线程地址
+        'perf', // 优化相关，比如提升性能、体验
+        'chore', // 构建过程或辅助工具的变动||不属于以上类型的其他类型(日常事务)
       ],
     ],
   },
