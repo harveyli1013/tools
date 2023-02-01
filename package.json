@@ -1,5 +1,5 @@
 {
-  "name": "tools",
+  "name": "suptools",
   "version": "1.0.0",
   "description": "utils tools",
   "main": "lib/index.js",
