@@ -1,5 +1,14 @@
 # 工具库更新日志
 
+## [1.0.1](https://github.com/harveyli1013/tools/compare/v1.0.0...v1.0.1) (2023-02-02)
+
+
+### Features
+
+* add sum method & test ([9e007c5](https://github.com/harveyli1013/tools/commit/9e007c57b423cc8d7ffd1df62e2d2601054bcbd0))
+
+
+
 # [1.0.0](https://github.com/harveyli1013/tools/compare/6e3f01ac3c95bb8ec0637afd7b4c5215a59ca132...v1.0.0) (2023-02-01)
 
 
