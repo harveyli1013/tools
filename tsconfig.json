@@ -26,9 +26,11 @@
     ]
   },
   "include": [
-    "src"
+    "src",
+    "reminder",
+    "test"
   ],
   "exclude": [
-    "dist"
+    "lib"
   ]
 }

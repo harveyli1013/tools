@@ -31,10 +31,11 @@ const eslintrc = {
         delimiter: 'none',
       },
     ], // 成员分隔符
+    '@typescript-eslint/naming-convention': 'warn',
     '@typescript-eslint/semi': ['error', 'never'],
-
+    // 'import/no-extraneous-dependencies': ['off'],
     'jest/expect-expect': ['off'],
-
+    // 'no-useless-catch': 'off',
     'space-infix-ops': ['error'],
     'comma-dangle': [
       'error',
@@ -46,6 +47,7 @@ const eslintrc = {
         functions: 'always-multiline',
       },
     ],
+    'no-underscore-dangle': ['off'],
     'space-before-function-paren': ['error', 'never'], // 方法名后空格
     semi: ['error', 'never'], // 无分号
     indent: ['error', 2], // 缩进2

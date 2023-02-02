@@ -1,6 +1,6 @@
 import assert from 'assert'
 import { sum } from '../src'
-import { ERROR_THE_VARIATE_IS_NOT_EITHER_STRING_TYPE_OR_NUMBER_TYPE } from '../src/reminder'
+import { ERROR_THE_VARIATE_IS_NOT_EITHER_STRING_TYPE_OR_NUMBER_TYPE } from '../reminder'
 
 describe('sum', () => {
   it('should sum two numbers', () => {
